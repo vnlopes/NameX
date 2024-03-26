@@ -11,7 +11,7 @@
     <header
       class="w-[100%] z-30 bg-[#000000c5] select-none h-[100px] justify-center flex sticky top-0 items-center border-b border-neutral-900 backdrop-blur-lg"
     >
-      <div class="flex w-[90%] justify-between">
+      <div class="flex w-[90%] px-8 lg:p-0 justify-between">
         <div class="logo text-3xl">
           <span class="text-logo font-medium text-white italic">Name</span
           ><span class="text-white font-bold">X</span>
@@ -23,10 +23,13 @@
           <li class="flex justify-center items-center"><a href="/index.html" class="text-white">Contato</a></li>
         </div>
 
-        <div class="login text-white items-center gap-8 text-2xl justify-center flex">
+        <div class="login text-white items-center gap-8 text-2xl justify-center hidden lg:flex">
           <a href="/index.html" class="w-[155px] flex justify-center items-center rounded-lg h-[45px] bg-[#0057FF]">get started</a>
           <a href="#" class="">login</a>
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#ffffff" class="bi bi-list lg:hidden flex" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+        </svg>
       </div>
     </header>
 
@@ -46,8 +49,20 @@
 
 
     <main class="w-full flex justify-center mt-20 mb-20 relative items-center">
-        <div class="main-bg w-full lg:before:w-[600px] lg:before:h-[600px] before:w-[200px] before:h-[200px] hover:scale-[99%] transition-[1s] flex justify-center items-center">
-            <div class="main w-[80%] h-[300px] lg:w-[1100px] bg-gradient-to-t from-black to-[#0a0a0a] relative flex justify-center items-center lg:h-[600px] rounded-xl border-2 border-neutral-900"></div>
+        <div class="main-bg w-full lg:before:w-[600px] lg:before:h-[600px] z-10 before:w-[200px] before:h-[200px] hover:scale-[99%] transition-[1s] flex justify-center items-center">
+            <div class="main relative w-[100%] lg:w-[100%] bg-gradient-to-t from-black to-[#0a0a0a] relative flex justify-center items-center lg:h-[600px] border-y-2 border-neutral-900">
+
+              <div class="flex flex-col items-center z-30 gap-44 w-[1000px]">
+                <div class=""><span class="text-main-title text-white text-6xl font-bold">
+                  Com NameX é muito mais  fácil!
+                </span>
+                <span class="text-white text-3xl">O seu tempo é mais precioso do que passar horas pendurados em ligações demoradas.</span></div>
+                <div class="text-white flex w-full justify-between mt-20 text-2xl">
+                  <span>Planos</span><span>Contato</span><span>Meus agendamentos</span>
+                </div>
+              </div>
+
+            </div>
         </div>
     </main>
 

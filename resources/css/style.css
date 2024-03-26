@@ -15,6 +15,10 @@ header{
     font-family: "Montserrat", sans-serif;
 }
 
+.text-main-title{
+    font-family: "Montserrat", sans-serif;
+}
+
 .home::after{
     content: '';
     position: absolute;
@@ -32,6 +36,11 @@ header{
     font-family: "Inter", sans-serif;
 }
 
+.main::after{
+    z-index: 1;
+    content: url(/resources/images/clocks.png);
+    position: absolute;
+}
 
 .main-bg::before{
     opacity: 30%;
