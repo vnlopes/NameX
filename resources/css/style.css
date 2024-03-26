@@ -39,6 +39,7 @@ header{
 .main::after{
     z-index: 1;
     content: url(/resources/images/clocks.png);
+    background-size: 100%;
     position: absolute;
 }
 
