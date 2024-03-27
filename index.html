@@ -7,65 +7,120 @@
     <link rel="stylesheet" href="/resources/css/style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-black min-h-screen overflow-x-hidden w-[100vw] relative flex flex-col items-center">
+  <body
+    class="bg-black min-h-screen overflow-x-hidden w-[100vw] relative flex flex-col items-center"
+  >
     <header
       class="w-[100%] z-30 bg-[#000000c5] select-none h-[100px] justify-center flex sticky top-0 items-center border-b border-neutral-900 backdrop-blur-lg"
     >
       <div class="flex w-[90%] px-8 lg:p-0 justify-between">
-        <div class="logo text-3xl">
+        <div class="logo text-2xl">
           <span class="text-logo font-medium text-white italic">Name</span
           ><span class="text-white font-bold">X</span>
         </div>
 
-        <div class="actions text-2xl justify-between hidden lg:flex gap-10">
-          <li class="flex justify-center items-center"><a href="/index.html" class="home relative flex justify-center text-[#0057FF] font-semibold">Home</a></li>
-          <li class="flex justify-center items-center"><a href="/index.html" class="text-white">Sobre</a></li>
-          <li class="flex justify-center items-center"><a href="/index.html" class="text-white">Contato</a></li>
+        <div class="actions text-lg justify-between hidden lg:flex gap-10">
+          <li class="flex justify-center items-center">
+            <a
+              href="/index.html"
+              class="home relative flex justify-center text-[#0057FF] font-semibold"
+              >Home</a
+            >
+          </li>
+          <li class="flex justify-center items-center">
+            <a href="/index.html" class="text-white">Sobre</a>
+          </li>
+          <li class="flex justify-center items-center">
+            <a href="/index.html" class="text-white">Contato</a>
+          </li>
         </div>
 
-        <div class="login text-white items-center gap-8 text-2xl justify-center hidden lg:flex">
-          <a href="/index.html" class="w-[155px] flex justify-center items-center rounded-lg h-[45px] bg-[#0057FF]">get started</a>
+        <div
+          class="login text-white items-center gap-8 text-lg justify-center hidden lg:flex"
+        >
+          <a
+            href="/index.html"
+            class="flex px-6 justify-center items-center rounded-lg h-[45px] bg-[#0057FF]"
+            >cadastrar-se</a
+          >
           <a href="#" class="">login</a>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#ffffff" class="bi bi-list lg:hidden flex" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="36"
+          height="36"
+          fill="#ffffff"
+          class="bi bi-list lg:hidden flex"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+          />
         </svg>
       </div>
     </header>
 
-    <section class="flex items-center flex-col gap-10">
-        <a href="">
-            <div class="border mt-20 text-xl flex justify-center border-2 items-center border-[#0057FF] rounded-2xl bg-[#0057FF4b] w-[350px] h-[50px]">
-                <span class="effect-text font-medium text-[#0057FF]">Somos a inovação. Escolha já!</span>
-                </div>
-        </a>
-
-        <div class="text w-[80%] lg:w-[1200px] flex flex-col text-center gap-4 font-extrabold">
-        <span class="text-white text-2xl xs:text-2xl lg:text-6xl">Simplificando a vida de quem quer agendamentos <span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-800">descomplicados</span></span>
-        <span class="text-[#ffffff8a] text-sm lg:text-xl font-light">Não deixe mais de fazer o que é importante por conta de um agendamento demorado.</span>
+    <section class="flex items-center h-screen lg:h-[900px] flex-col gap-14">
+      <a href="">
+        <div
+          class="border mt-48 text-xl flex justify-center border-2 items-center border-[#0057FF] rounded-2xl bg-[#0057FF4b] w-[350px] h-[50px]"
+        >
+          <span class="effect-text font-medium text-[#0057FF]"
+            >Somos a inovação. Escolha já!</span
+          >
         </div>
+      </a>
 
+      <div
+        class="text w-[80%] lg:w-[1200px] flex flex-col text-center gap-8 font-extrabold"
+      >
+        <span class="text-white text-2xl xs:text-2xl lg:text-6xl"
+          >Simplificando a vida de quem quer agendamentos
+          <span
+            class="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-800"
+            >descomplicados</span
+          ></span
+        >
+        <span class="text-[#ffffff8a] text-sm lg:text-xl font-light"
+          >Não deixe mais de fazer o que é importante por conta de um
+          agendamento demorado.</span
+        >
+      </div>
     </section>
 
-
-    <main class="w-full flex justify-center mt-20 mb-20 overflow-hidden relative items-center">
-        <div class="main-bg w-full lg:before:w-[600px] lg:before:h-[600px] z-10 before:w-[200px] before:h-[200px] hover:scale-[99%] transition-[1s] flex justify-center items-center">
-            <div class="main relative w-[100%] lg:w-[100%] bg-gradient-to-t from-black to-[#0a0a0a] relative flex justify-center items-center h-[600px] border-y-2 border-neutral-900">
-
-              <div class="flex flex-col w-[80%] items-center z-30 gap-10 lg:gap-44 w-[1000px]">
-                <div class="flex-col flex"><span class="text-main-title text-white text-4xl lg:text-6xl font-bold">
-                  Com NameX é muito mais  fácil!
-                </span>
-                <span class="text-white text-sm lg:text-3xl">O seu tempo é mais precioso do que passar horas pendurados em ligações demoradas.</span></div>
-                <div class="text-white flex lg:w-full max-w-[1080px] justify-between w-[80%] mt-20 text-2xl">
-                  <span>Planos</span><span>Contato</span><span>Meus agendamentos</span>
-                </div>
-              </div>
-
+    <main
+      class="w-full flex justify-center mb-20 overflow-hidden relative items-center"
+    >
+      <div
+        class="main-bg w-full lg:before:w-[600px] lg:before:h-[600px] z-10 before:w-[200px] before:h-[200px] hover:scale-[99%] transition-[1s] flex justify-center items-center"
+      >
+        <div
+          class="main relative w-[100%] lg:w-[100%] bg-gradient-to-t from-black to-[#0a0a0a] relative flex justify-center items-center h-[600px] border-y-2 border-neutral-900"
+        >
+          <div
+            class="flex flex-col w-[80%] items-center z-30 gap-10 lg:gap-44 w-[1000px]"
+          >
+            <div class="flex-col flex">
+              <span
+                class="text-main-title text-white text-4xl lg:text-6xl font-bold"
+              >
+                Com NameX é muito mais fácil!
+              </span>
+              <span class="text-white text-sm lg:text-3xl"
+                >O seu tempo é mais precioso do que passar horas pendurados em
+                ligações demoradas.</span
+              >
             </div>
+            <div
+              class="text-white flex lg:w-full max-w-[1080px] justify-between w-[80%] mt-20 text-2xl"
+            >
+              <span>Planos</span><span>Contato</span
+              ><span>Meus agendamentos</span>
+            </div>
+          </div>
         </div>
+      </div>
     </main>
-
-
   </body>
 </html>

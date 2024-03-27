@@ -1,25 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
-
-
-.text-logo{
-    font-family: "Montserrat", sans-serif;
+.text-logo {
+  font-family: "Montserrat", sans-serif;
 }
 
-header{
-    font-family: "Montserrat", sans-serif;
+header {
+  font-family: "Montserrat", sans-serif;
 }
 
-.effect-text{
-    font-family: "Montserrat", sans-serif;
+.effect-text {
+  font-family: "Montserrat", sans-serif;
 }
 
-.text-main-title{
-    font-family: "Montserrat", sans-serif;
+.text-main-title {
+  font-family: "Montserrat", sans-serif;
 }
 
-.home::after{
+/* .home::after{
     content: '';
     position: absolute;
     background-color: #0055ff;
@@ -30,26 +28,26 @@ header{
     border-bottom-right-radius: 1px;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
+} */
+
+.text {
+  font-family: "Inter", sans-serif;
 }
 
-.text{
-    font-family: "Inter", sans-serif;
+.main::after {
+  z-index: 1;
+  content: url(/resources/images/clocks.png);
+  background-size: 100%;
+  position: absolute;
 }
 
-.main::after{
-    z-index: 1;
-    content: url(/resources/images/clocks.png);
-    background-size: 100%;
-    position: absolute;
-}
-
-.main-bg::before{
-    opacity: 30%;
-    border-radius: 50%;
-    filter: blur(160px);
-    content: '';
-    position: absolute;
-    background-color: white;
-    width: 600px;
-    height: 600px;
+.main-bg::before {
+  opacity: 30%;
+  border-radius: 50%;
+  filter: blur(160px);
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 600px;
+  height: 600px;
 }
